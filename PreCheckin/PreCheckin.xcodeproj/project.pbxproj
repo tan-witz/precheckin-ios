@@ -13,6 +13,8 @@
 		5960F42020F84ED20052DDF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5960F41F20F84ED20052DDF9 /* Assets.xcassets */; };
 		5960F42320F84ED20052DDF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5960F42120F84ED20052DDF9 /* LaunchScreen.storyboard */; };
 		6A034EC89E8ABE0F064793B7 /* Pods_PreCheckin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2234937637927951F1F411C /* Pods_PreCheckin.framework */; };
+		D759111F20FDE4B600DF25C8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D759111E20FDE4B600DF25C8 /* TableViewController.swift */; };
+		D759112120FDF20200DF25C8 /* Vietnam.png in Resources */ = {isa = PBXBuildFile; fileRef = D759112020FDF20200DF25C8 /* Vietnam.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		5960F42420F84ED20052DDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70BBAE94884E5C70CF0397DC /* Pods-PreCheckin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreCheckin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreCheckin/Pods-PreCheckin.debug.xcconfig"; sourceTree = "<group>"; };
 		D2234937637927951F1F411C /* Pods_PreCheckin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreCheckin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D759111E20FDE4B600DF25C8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D759112020FDF20200DF25C8 /* Vietnam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vietnam.png; sourceTree = "<group>"; };
 		EEAAC12294B82A9082DF0B72 /* Pods-PreCheckin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreCheckin.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreCheckin/Pods-PreCheckin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,8 +64,8 @@
 		5960F40C20F84ED10052DDF9 = {
 			isa = PBXGroup;
 			children = (
-				5960F41720F84ED10052DDF9 /* PreCheckin */,
 				5960F41620F84ED10052DDF9 /* Products */,
+				5960F41720F84ED10052DDF9 /* PreCheckin */,
 				087F625748258ED1E3D59639 /* Pods */,
 				439390F0850CEFC249FA2F34 /* Frameworks */,
 			);
@@ -82,7 +86,7 @@
 				5960F42F20F851090052DDF9 /* CustomControllers */,
 				5960F42E20F850EE0052DDF9 /* Supporting File */,
 				5960F42D20F850BB0052DDF9 /* Controllers */,
-				5960F42C20F850A60052DDF9 /* Resources */,
+				5960F42C20F850A60052DDF9 /* Resouce */,
 				5960F42B20F850860052DDF9 /* Models */,
 				5960F42A20F8507C0052DDF9 /* Views */,
 			);
@@ -105,17 +109,19 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		5960F42C20F850A60052DDF9 /* Resources */ = {
+		5960F42C20F850A60052DDF9 /* Resouce */ = {
 			isa = PBXGroup;
 			children = (
+				D759112020FDF20200DF25C8 /* Vietnam.png */,
 			);
-			name = Resources;
+			name = Resouce;
 			sourceTree = "<group>";
 		};
 		5960F42D20F850BB0052DDF9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				5960F41A20F84ED10052DDF9 /* ViewController.swift */,
+				D759111E20FDE4B600DF25C8 /* TableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5960F42320F84ED20052DDF9 /* LaunchScreen.storyboard in Resources */,
+				D759112120FDF20200DF25C8 /* Vietnam.png in Resources */,
 				5960F42020F84ED20052DDF9 /* Assets.xcassets in Resources */,
 				5960F41E20F84ED10052DDF9 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +264,7 @@
 			files = (
 				5960F41B20F84ED10052DDF9 /* ViewController.swift in Sources */,
 				5960F41920F84ED10052DDF9 /* AppDelegate.swift in Sources */,
+				D759111F20FDE4B600DF25C8 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +410,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LNRZS294M9;
 				INFOPLIST_FILE = PreCheckin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,7 +430,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LNRZS294M9;
 				INFOPLIST_FILE = PreCheckin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
