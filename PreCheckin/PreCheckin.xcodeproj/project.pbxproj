@@ -15,6 +15,7 @@
 		6A034EC89E8ABE0F064793B7 /* Pods_PreCheckin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2234937637927951F1F411C /* Pods_PreCheckin.framework */; };
 		D759111F20FDE4B600DF25C8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D759111E20FDE4B600DF25C8 /* TableViewController.swift */; };
 		D759112120FDF20200DF25C8 /* Vietnam.png in Resources */ = {isa = PBXBuildFile; fileRef = D759112020FDF20200DF25C8 /* Vietnam.png */; };
+		D759112320FEEABB00DF25C8 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D759112220FEEABB00DF25C8 /* OTPVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D2234937637927951F1F411C /* Pods_PreCheckin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreCheckin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D759111E20FDE4B600DF25C8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D759112020FDF20200DF25C8 /* Vietnam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vietnam.png; sourceTree = "<group>"; };
+		D759112220FEEABB00DF25C8 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
 		EEAAC12294B82A9082DF0B72 /* Pods-PreCheckin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreCheckin.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreCheckin/Pods-PreCheckin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 			children = (
 				5960F41A20F84ED10052DDF9 /* ViewController.swift */,
 				D759111E20FDE4B600DF25C8 /* TableViewController.swift */,
+				D759112220FEEABB00DF25C8 /* OTPVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				5960F41B20F84ED10052DDF9 /* ViewController.swift in Sources */,
 				5960F41920F84ED10052DDF9 /* AppDelegate.swift in Sources */,
+				D759112320FEEABB00DF25C8 /* OTPVC.swift in Sources */,
 				D759111F20FDE4B600DF25C8 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
