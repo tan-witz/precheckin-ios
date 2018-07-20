@@ -18,11 +18,6 @@ class ViewController: UIViewController {
    @IBOutlet weak var nextToOtpCode: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-        countryName.text = countryNameVC[myIndex]
-        countryCode.text = countryCodeVC[myIndex]
-        countryFlat.text = countryFlatVC[myIndex]
-    
-        
     }
 
     override func didReceiveMemoryWarning() {

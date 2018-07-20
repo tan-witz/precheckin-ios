@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B3734021018743007B5E8F /* CountriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3733F21018743007B5E8F /* CountriesVC.swift */; };
+		16B3734221018B74007B5E8F /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3734121018B74007B5E8F /* TestViewController.swift */; };
 		5960F41920F84ED10052DDF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960F41820F84ED10052DDF9 /* AppDelegate.swift */; };
 		5960F41B20F84ED10052DDF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960F41A20F84ED10052DDF9 /* ViewController.swift */; };
 		5960F41E20F84ED10052DDF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5960F41C20F84ED10052DDF9 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16B3733F21018743007B5E8F /* CountriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesVC.swift; sourceTree = "<group>"; };
+		16B3734121018B74007B5E8F /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		5960F41520F84ED10052DDF9 /* PreCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5960F41820F84ED10052DDF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5960F41A20F84ED10052DDF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				5960F41A20F84ED10052DDF9 /* ViewController.swift */,
 				D759111E20FDE4B600DF25C8 /* TableViewController.swift */,
 				D759112220FEEABB00DF25C8 /* OTPVC.swift */,
+				16B3733F21018743007B5E8F /* CountriesVC.swift */,
+				16B3734121018B74007B5E8F /* TestViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 				5960F41920F84ED10052DDF9 /* AppDelegate.swift in Sources */,
 				D759112320FEEABB00DF25C8 /* OTPVC.swift in Sources */,
 				D759111F20FDE4B600DF25C8 /* TableViewController.swift in Sources */,
+				16B3734221018B74007B5E8F /* TestViewController.swift in Sources */,
+				16B3734021018743007B5E8F /* CountriesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
